@@ -3,13 +3,13 @@ body{
     background-color: black; 
     margin: 0%;
     padding: 0%;
+    
 }
 
 
 nav{
-    /* overflow: hidden;
-    background-color: rgb(7, 7, 7); */
-    border-bottom: 5px solid rgb(119, 92, 223);
+   
+    border-bottom: 5px solid rgb(119, 92, 223)
 }
 
 nav img{
@@ -39,9 +39,22 @@ nav a.extra{
       justify-content: flex-end;
     }
   }
-
+content{
+    background-color: black;
+}
   .contentDiv {
-    border-left-width: 3rem;
+    border-left-width: 0.3rem;
     border-left-color: rgb(215, 250, 53);
     border-left-style: solid;
+    padding: 8rem;
+    background-color: black;
+  }
+
+img{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .tituloContent, .textoContent{
+    color: white;
   }
