@@ -34,7 +34,14 @@ nav a.extra{
     color: rgb(119, 92, 223);
 }
 
+@media (max-width: 576px) {
+    .navbar-nav {
+      justify-content: flex-end;
+    }
+  }
 
-
-
-
+  .contentDiv {
+    border-left-width: 3rem;
+    border-left-color: rgb(215, 250, 53);
+    border-left-style: solid;
+  }
